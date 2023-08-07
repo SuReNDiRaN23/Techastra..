@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="Style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href = "https://fonts.googleapis.com/css?family=Kaushan+Script|Poppins&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@600&family=Edu+TAS+Beginner:wght@600&family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+<title>Techastra Website</title>
+<style>
+    *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Poppins',sans-serif;
+     text-decoration: none;
+     list-style: none;
+  }
+   /* Codepen Code */
+   .container{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.container figure{
+  position: relative;
+  justify-content: center;
+   align-items: center;
+    width: 100%;
+    height: 100vh;
+    line-height: 0;
+}
+figure img{
+  position: relative;
+    margin-left: 160px;
+    width: 1000px;
+    height: 500px;
+    border-radius: 17px;
+    box-shadow: 10px 10px 10px 10px;
+    opacity: 0.80;
+}
+.slide{
+    position: absolute;
+    bottom: 50px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.slide img{
+    width: 50px;
+    height: 40px;
+    margin: 10px;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.slide img:hover{
+    transform: scale(1.3);
+}
+/* codepen */
+  *{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+body{
+  overflow-x: hidden;
+  min-height: 1600px;
+  background: #fff;
+  
+} 
+.title{
+  background-size: 100%;
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  border-radius: 10px;
+}
+  
+.Events{
+  border-radius: 20px;
+  width: 100%;
+  padding: 30px;
+  background: #fff;
+  background-attachment: fixed;
+}
+.Events h2{
+  text-decoration: underline;
+  text-underline-position: under;
+  margin: 20px;
+  font-size: 40px;
+  color: #862E2E;
+  justify-content: center;
+  text-align: center;
+}
+.Events .cards{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.Events .cards .card{
+  justify-content: center;
+  align-items: center;
+  box-shadow: 10px 15px 15px;
+  position: relative;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 50px;
+  height: 500px;
+  width: 400px;
+  border-radius: 15px;
+  background-color: #EAE6E9;
+}
+.first{
+  margin-top: 100px;
+  margin-left: 200px;
+}
+.card h3{
+  color: #000;
+  font-size: 20px;
+  font-weight: 800;
+  margin: 20px;
+  text-align: center;
+}
+.card:hover{
+  color: #fff;
+
+}
+.card .sename {
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+  margin: 30px;
+}
+.card .sename li{
+  color: #000;
+  font-weight: 300;
+  margin-top: 10px;
+}
+nav{
+  padding: 40px;
+}
+ul {
+    position: relative;
+    text-decoration: none;
+    align-items: center;
+   float: right;
+  display: flex;
+}
+
+ul li{
+  margin-left: 20px;
+  text-decoration: none;
+   align-items: center;
+    justify-content: center;
+  display: inline-flex;
+}
+ul li .btn{
+  text-align: right;
+  text-decoration: none;
+  margin-left: 20px;
+  text-decoration: none;
+  justify-content: safe right;
+  align-items: center;
+  display: flex; 
+   color:#fff ;
+
+}
+.btn:hover{
+ color:#FFEC00;
+}
+.About{
+  margin: 30px;
+  background-color: #fff;
+}
+.About h2{
+  margin-top: 50px;
+  font-size: 40px;
+   text-decoration: underline;
+ text-underline-position: under;
+  color: #862E2E;
+  justify-content: center;
+  text-align: center;
+}
+.About .content{
+  padding: 30px;
+  display: inline-flex;
+}
+.About .content p{
+  line-height: 1.6;
+  margin: 30px;
+}
+
+.sename li .bbutton{
+  text-decoration: none;
+  color: #000;
+   font-size: 19px;
+  font-weight: 400;
+  margin-top: 10px;
+  
+}
+.bbutton:hover{
+  color:#000 ;
+  background: #fff;
+  padding: 5px;
+  border-radius: 30px;
+
+}
+footer{
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  height: 90vh;
+  width: 100%;
+  background: #000;
+}
+footer .fc{
+  color: #fff;
+  margin-top: 10px;
+}
+footer .col1{
+  padding: 50px;
+  margin: 30px;
+}
+footer .col1 .icon{
+  margin: 10px;
+}
+.mid{
+  position: relative;
+  margin: 30px;
+  height: 60vh;
+  width: 100%;
+}
+.elaborate{
+
+  display: inline-flex;
+  margin: 30px;
+  justify-content: center;
+}
+.elaborate p{
+  margin-left: 80px;
+  font-weight: 400;
+  font-size: 20px;
+  font-family:"Montserrat", sans-serif;
+  color: #FF5733;
+}
+.igpic{
+  margin-left: 25px;
+}
+.imp{
+  margin-bottom: 90px;
+  margin: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imp div{
+  display: flex;
+}
+.imp div p{
+  margin-top: 30px;
+}
+.imp img{
+  margin: 30px;
+}
+.col2{
+  margin-right: 30px;
+}
+.partner{
+  margin-bottom: 30px;
+  width: 100%;
+  height: 70vh;
+  background:#E9E9E9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.partner img{
+  margin: 30px;
+}
+.sponser{
+  margin-bottom: 30px;
+  width: 100%;
+  height: 70vh;
+  background:#E9E9E9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sponser img{
+  margin: 30px;
+}
+ h2{
+   text-decoration: underline;
+  text-underline-position: under;
+  margin: 20px;
+  font-size: 40px;
+  color: #862E2E;
+  justify-content: center;
+  text-align: center;
+}
+@media (max-width: 991px)
+{
+  body{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+  }
+     .container{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.container figure{
+  justify-content: center;
+  align-items: center;
+  position: relative;
+   top: 15px;
+    width: 100%;
+    right: 28px;
+    height: 35vh;
+    line-height: 0;
+}
+figure img{
+  justify-content: center;
+  align-items: center;
+  position: relative;
+    width: 70%;
+    height: 20vh;
+    border-radius: 17px;
+    box-shadow: 10px 10px 10px 10px;
+    opacity: 0.80;
+}
+.slide{
+    background-color: #EAE6E9 ;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 100px;
+}
+.slide img{
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.slide img:hover{
+    transform: scale(1.3);
+}
+  #Events .cards{
+    position: relative;
+    justify-content: center;
+    align-items: centr;
+    display: block;
+  }
+   #Events .cards .card{
+    margin: 250px;
+    justify-content: center;
+    align-items: center;
+     padding: 10px;
+  }
+  .first{
+  margin-top: 0;
+  margin-left: 0;
+}
+  
+  #contact{
+    padding: 40px;
+    height: auto;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+  }
+  .imp{
+  margin-bottom: 50px;
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imp div{
+  display: flex;
+}
+.imp div p{
+  line-height: 1.6;
+  margin-top: 30px;
+  font-size: 24px;
+}
+.imp img{
+  margin: 30px;
+}
+  iframe{
+    margin: 30px;
+    margin-left: 70px;
+    height: 300px;
+    width: 300px;
+  }
+  .About .content{
+  padding: 30px;
+  display: block;
+}
+.About .content p{
+  line-height: 1.6;
+  margin: 30px;
+}
+.partner{
+  margin-bottom: 30px;
+  width: 100%;
+  height: 60vh;
+  background:#E9E9E9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.partner img{
+  height: 40px;
+  width: 70px;
+  margin: 20px;
+}
+.sponser{
+  width: 100%;
+  height: 60vh;
+  background:#E9E9E9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sponser img{
+  height: 40px;
+  width: 70px;
+  margin: 20px;
+}
+.mid{
+  position: relative;
+  margin: 30px;
+  height: 30vh;
+  width: 100%;
+}
+.elaborate{
+
+  display: inline-flex;
+  margin: 10px;
+  justify-content: center;
+}
+.elaborate p{
+  margin-left: 56px;
+  font-weight: 400;
+  font-size: 16px;
+  font-family:"Montserrat", sans-serif;
+  color: #FF5733;
+}
+.igpic{
+  justify-content: center;
+  align-items: center;
+  margin-left: 25px;
+  height: 80;
+  width: 800px;
+}
+.title{
+  background-image: url("https://img.freepik.com/free-photo/glowing-bonfire-igniting-bright-blaze-pattern-generated-by-ai_24640-91585.jpg?t=st=1691352649~exp=1691356249~hmac=fae2136b420831fc6ea21cd7798389dea9a298172e1df9dd6d5822817a1d9ad0&w=826");
+  background-size: 100%;
+  height: 30vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  border-radius: 10px;
+}
+}
+
+</style>
+</head>
+<body>
+  <section class="title">
+    <nav class="nav">
+      <div class="nav-menu flex-row">
+          <div class="nav-brand">
+              <a href="#" class="text-gray">Techastra</a>
+          </div>
+          <div class="toggle-collapse">
+              <div class="toggle-icons">
+                  <i class="fas fa-bars"></i>
+              </div>
+          </div>
+          <div>
+              <ul class="nav-items">
+                  <li class="nav-link">
+                      <a href="#">Home</a>
+                  </li>
+                  <li class="nav-link">
+                      <a href="#">Events</a>
+                  </li>
+                  <li class="nav-link">
+                      <a href="#">Committee</a>
+                  </li>
+                  <li class="nav-link">
+                      <a href="#">Registration</a>
+                  </li>
+                  <li class="nav-link">
+                      <a href="#">Contact</a>
+                  </li>
+              </ul>
+          </div>
+          <div class="social text-gray">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+      </div>
+  </nav>
+  <div class="container">
+    <figure>
+        <img src="https://i.ibb.co/LxYrtdd/first.png" alt="">
+    </figure>
+    <div class="slide">
+        <img src="https://i.ibb.co/LxYrtdd/first.png" alt="">
+        <img src="https://i.ibb.co/tXFyTcq/discussion.gif" alt="">
+        <img src="https://i.ibb.co/jTrjWHj/live.gif" alt="">
+        <img src="https://i.ibb.co/zJws38X/technology.gif" alt="">
+    </div>
+</div>
+  </section>
+<section class="imp">
+  <div>
+    <img height="50px" width="50px" src="https://i.ibb.co/NCT6LN5/calendar.png">
+    <p><b>DATE</b><br><br>02-05 September 2023</p>
+  </div>
+   <div>
+    <img height="50px" width="50px" src="https://i.ibb.co/2YwQjmN/location.png">
+    <p><b>LOCATION</b><br><br>Dr.M.G.R Education and<br> Research Institute,<br> Chennai.</p>
+  </div>
+   <div>
+    <img height="50px" width="50px" src="https://i.ibb.co/27tvJdk/user.png">
+    <p><b>ORGANIZED BY</b><br><br>Department of Computer<br> Science and Engineering </p>
+  </div>
+</section>
+<section class="About">
+ <h2>ABOUT US</h2>
+ <div class="content">
+   <p>The Department of Computer Science and Engineering of Dr.M.G.R. Educational and Reasearch Institute University is hosting 15th National level Technical symposium, <b>TECHASTRA '23</b> in our University premises from September 26th to 28th 2023 . TECHASTRA is the flagship event of our department which comes up with a roaring sucess every year. Along with the 1000 budding engineering students of the university, more than 2000 sutdents are expected to attend and particpate from various colleges and schools across India.</p>
+  <p><b>TECHASTRA '23</b> Senior event will host a number of innovative and exciting events like programming contests, quizzing and paper presentaion along with other techinal and non techinal events. <b>TECHASTRA '23</b> boasts a magnitude of events and promises to be one, that has an event for everyone. This Symposium will host a wide spectrum of events like project demo, spelling bee and chess along with other techinal and non- techinal events. <b>TECHASTRA.Jr '23</b> boasts a magnitude of events and promises to be one that has an event for everyone.</p>
+</div>
+</section>
+<section class="Events" id="Events">
+<h2>EVENTS</h2>
+ <div class="cards">
+  <div class="card">
+    <h3>Senior Technical Events</h3>
+    <ul class="sename">
+      <li>HACKATHON</li><br>
+      <li>CALL FOR PAPERS</li><br>
+      <li>BUG QUEST</li><br>
+      <li>TECH TRIVIA</li><br>
+      <li>FORENSIC INVEST</li><br>
+      <li>CRACK HEAD</li><br>
+      <li>CLASH FOR DESIGN</li><br>
+      <li>DEBATE ROYALE</li><br>
+      <li>CIIPHERX</li><br>
+      <li><a class="bbutton" href="SeniorTech.html"><b>Know more</b></a></li>
+    </ul>
+  </div> 
+   <div class="card">
+    <h3>Senior Non-Technical Events</h3>
+    <ul class="sename">
+      <li>VISUAL ART</li><br>
+      <li>LINT IT</li><br>
+      <li>ARCADE GAMING</li><br>
+      <li>ESCAPE ROOM</li><br>
+      <li>MAKE IT SHORT</li><br>
+      <li><a class="bbutton" href="SeniorTech.html"><b>Know more</b></a></li>
+    </ul>
+  </div> 
+  <div class="card">
+    <h3>Junior Events</h3>
+    <ul class="sename">
+      <li>TYPE SPRINT</li><br>
+      <li>ESSAY FFORUM</li><br>
+      <li>BRAIN OUT</li><br>
+      <li>PROJECT EXPO</li><br>
+      <li>FINE ARTS</li><br>
+      <li>WORD NEXUS</li><br>
+      <li>ROBOT WARS</li><br>
+      <li>ANAGRAMMING</li><br>
+      <li><a class="bbutton" href="Juniortech.html"><b>Know more</b></a></li>
+    </ul>
+  </div> 
+</div>
+</section>
+<section class="About">
+ <h2>ABOUT THE EVENT</h2>
+   <div class="content">
+   <p>The department of computer science and engineering of Dr. M.G.R. Educational and research institute University is hosting a National level Technical Symposium, <b>TECHASTRA ’23</b> in the University campus on <b>September 26th to 28th 2023</b>. <b>TECHASTRA</b> is the flagship event of the department which comes up with a roaring success every year. Along with the 1000 budding engineering students of the University, more</p>
+  <p>than 2000 students are excepted to be visiting from various schools and colleges from all over India. This is an immense opportunity for exhibiting your esteemed services to this extraordinary gathering occasion to enhance your direct and indirect marketing. The publicity for the symposium will be done digitally through social media and through posters and banners in and around the University Campus</p>
+</div>
+</section>
+<section class="mid">
+  <div>
+  <img class="igpic" height="250px" width="1120px" src="https://i.ibb.co/j3xrpwm/ignite.png">
+</div>
+  <div class="elaborate">
+    <p><b>IoT</b></p>
+    <p><b>GUI</b></p>
+    <p><b>NETWORKING</b></p>
+    <p><b>INFORMATION<br>SECURITY</b></p>
+    <p><b>TECHNOLOGY<br>ADVANCEMENT</b></p>
+    <p><b>EDGE<br>COMPUTING</b></p>
+</section>
+<section>
+   <h2>TECH PARTNERS</h2>
+   <div class="partner">
+    <div>
+      <img height="100px" width="130px" src="file:///C:/Users/Admin/Documents/techastra22%20Website%20Backup/assets/img/brands/t3.png">
+    </div>
+    <div>
+      <img height="50px" width="130px" src="file:///C:/Users/Admin/Documents/techastra22%20Website%20Backup/assets/img/brands/t4.png">
+    </div>
+    <div>
+      <img height="100px" width="100px" src="file:///C:/Users/Admin/Documents/techastra22%20Website%20Backup/assets/img/brands/t5.png">
+    </div>
+    <div>
+      <img height="80px" width="130px" src="file:///C:/Users/Admin/Documents/techastra22%20Website%20Backup/assets/img/brands/t6.png">
+    </div>
+    <div>
+      <img height="100px" width="170px" src="file:///C:/Users/Admin/Documents/techastra22%20Website%20Backup/assets/img/brands/t1.png">
+    </div>
+    <div>
+      <img height="100px" width="100px" src="file:///C:/Users/Admin/Documents/techastra22%20Website%20Backup/assets/img/brands/t2.png">
+    </div>
+   </div>
+</section>
+<section>
+   <h2>SPONSERS</h2>
+   <div class="sponser">
+    <div>
+      <img height="80px" width="180" src="file:///C:/Users/Admin/Documents/techastra22%20Website%20Backup/images/benzzmedia.png">
+    </div>
+    <div>
+      <img height="150px" width="160px" src="file:///C:/Users/Admin/Documents/techastra22%20Website%20Backup/images/vaanavil.png">
+    </div>
+    <div>
+      <img height="150px" width="150px" src="file:///C:/Users/Admin/Documents/techastra22%20Website%20Backup/assets/img/sponsors/suzuki.jpeg">
+    </div>
+    <div>
+      <img height="130px" width="150px" src="file:///C:/Users/Admin/Documents/techastra22%20Website%20Backup/assets/img/sponsors/nissan.jpeg">
+    </div>
+    <div>
+      <img height="150px" width="170px" src="file:///C:/Users/Admin/Documents/techastra22%20Website%20Backup/assets/img/sponsors/tata.jpeg">
+    </div>
+   </div>
+</section>
+<footer id="contact">
+  <div class="col1" >
+    <p class="fc"><b>CONTACT</b></p>
+    <p class="fc"><b>EMAIL:</b> techastra@drmgrdu.ac.in</p>
+    <p class="fc"><b>HOD EMAIL:</b> hod-cse@drmgrdu.ac.in</p><br><br>
+    <p class="fc"><b>HEAD CO-ORDINATORS :</b></p>
+    <p class="fc">1.SANKAR GANESH - 7338869325</p>
+    <p class="fc">2.SOMASUNDRAM - 9677032719</p>
+    <p class="fc">APOORVA</p><br><br>
+    <a class="icon" href=""><img  height="30px" width="30px" src="./images/instagram.png" ></a>
+    <a class="icon" href=""><img  height="30px" width="30px" src="./images/mail.png" ></a>
+    <a class="icon" href=""><img  height="30px" width="30px" src="./images/browser.png" ></a>
+    <a class="icon" href=""><img  height="30px" width="30px" src="./images/twitter.png" ></a>
+  </div>
+  <div class="col2">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15545.879635566766!2d80.1779609!3d13.069378!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x58810f43c3a748ae!2sDr.+M.G.R.+Educational+And+Research+Institute!5e0!3m2!1sen!2sin!4v1565591409319!5m2!1sen!2sin" width="450" height="300" frameborder="0" style="border-radius: 12px;" allowfullscreen>location</iframe>
+  </div>
+</footer>
+<script>
+   const figureImg = document.querySelector('figure img');
+        const Imgs = document.querySelectorAll('.slide img');
+
+        Imgs.forEach(function(img) {
+            // console.log(img);
+            img.addEventListener('click',function(e) {
+                // console.log(e.target.src);
+                // console.log(figureImg.src);
+                figureImg.src = e.target.src;
+            })
+        })
+</script>
+</body>
+</html>
